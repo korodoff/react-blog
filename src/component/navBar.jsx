@@ -21,22 +21,22 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <Link className="nav-link active" aria-current="page" to="/">
-                Home
+                <span>Home</span>
               </Link>
               <Link className="nav-link" to="/tourism">
-                Tourism
+                <span>Tourism</span>
               </Link>
               <Link className="nav-link" to="/fitness">
-                Fitness
+                <span>Fitness</span>
               </Link>
               <Link className="nav-link" to="/technology">
-                Technology
+                <span>Technology</span>
               </Link>
               <Link className="nav-link" to="/bollywood">
-                Bollywood
+                <span>Bollywood</span>
               </Link>
               <Link className="nav-link" to="/food">
-                Food
+                <span>Food</span>
               </Link>
             </div>
           </div>
